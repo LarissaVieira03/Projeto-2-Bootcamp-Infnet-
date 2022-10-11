@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animeslari</title>
+</head>
+<body>
+    <script>
+        
+        const catalogos = {
+            boruto: {
+                nome: "Boruto",                
+                img: "./assets/img/boruto-novidade.jpg"
+            }, 
+            attackOnTitan: {
+                nome: "Attack On Titan",               
+                img: "./assets/img/attackontitanovidade.jpg"
+            }, 
+            demonSlayer: {
+                nome: "Demon Slayer",               
+                img: "./assets/img/demonslayer-novidade.jpg"
+            } 
+        }
+
+        for(let catalogo of Object.keys(catalogos)){
+            console.log(catalogos[catalogo]['nome'])
+            console.log(catalogos[catalogo]['dataLancamento'])
+            console.log(catalogos[catalogo]['img'])
+            console.log("=====================================")
+        }
+    </script>
+</body>
+</html>
