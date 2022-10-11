@@ -46,6 +46,13 @@ html, body {
 }
 /* fim spinner config */
 
+/* Popover */
+.btn-do-popover {
+    background-color: #fa91ab;
+}
+/* Popover */
+
+
 /* configuracao carousel com slick */
 .img-loader{
     width: 250px;

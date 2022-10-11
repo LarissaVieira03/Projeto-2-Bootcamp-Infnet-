@@ -5,6 +5,10 @@ const carrouselEmAlta = document.querySelector("#emAlta");
 const titleModal = document.querySelector("#title-modal");
 const bodyModal = document.querySelector("#body-modal");
 
+/* POPOVER */
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+/* POPOVER */
 
 /* MAIS ASSISTIDOS POR VOCE */
 
